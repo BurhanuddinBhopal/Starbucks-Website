@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+
+<body>
+    <div class="root-full-container">
+        <nav>
+            <a href="/Main Page/" class="logo"><img src="logo.png" alt=""></a>
+
+            <ul class="navigation">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li><a href="/About Us">About Us</a></li>
+                <li><a href="/Coffeehouse/">Coffeehouse</a></li>
+                <li><a href="/Contacts">Contacts</a></li>
+            </ul>
+            <div class="toggle" onclick="toggleMenu();"> </div>
+        </nav>
+        <div class="container">
+            <div class="biggerbase-container">
+                <div class="base-container">
+                    <div class="top-head">
+                        <h1>Starbucks</h1>
+                        <h2>R</h2>
+                    </div>
+                    <div class="mid-head">
+                        <h1>Happy Hour</h1>
+                    </div>
+                    <div class="para">
+                        <p>We'll meet you in your inbox. Dring deals are on their way
+                        </p>
+                    </div>
+                    <ul class="thumb">
+                        <li><img src="Home-page-thumb1.jpg" alt=""></li>
+                        <li><img src="Home-page-thumb2.png" alt=""></li>
+                        <li><img src="Home-page-thumb3.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="base-container1-side_image">
+                    <img src="Base-Container1-Side_image.png" alt="">
+                </div>
+            </div>
+            <div class="biggerbase-container2">
+                <div class="base-container2">
+                    <div class="box">
+                        a
+                    </div>
+                    <h1>Four Drinks, A Million Reasons</h1>
+                    <p><span>"just love yourself and you're set." - Lady Gaga</span></p>
+                    <p>Lady Gaga and Starbucks share a mission: to biuld a kinder, braver world. Through the Born This
+                        Way
+                        Foundation, Lady Gaga has inspired her fans to embrace kindness in their communities--online and
+                        in
+                        the world. Width your help, we can empower young people to spread more kindness.</p>
+                    <div class="btn">
+                        Learn More
+                    </div>
+                    <div class="base-container2-bottom_image">
+                        <img src="Base-Container2-Bottom_image.png" alt="">
+                    </div>
+                </div>
+                <div class="base-container2-side_image">
+                    <img src="Base-Container2-Side_image.jpg" alt="">
+                </div>
+            </div>
+            <div class="biggerbase-container3">
+                <div class="base-container3">
+                    <div class="box2">
+                        a
+                    </div>
+                    <h1>Introducing Vanilla Sweet Cream Cold Brew- sweet, creamy, cold, bold.</h1>
+                    <p>Just before serving our slow-steeped custom blend Starbucks Cold Brew Coffee is topped with a
+                        delicate float of house-made Vanilla sweet cream thst cascades throughout the cup</p>
+                    <div class="btn2">
+                        Learn More
+                    </div>
+                    <div class="base-container3-bottom_image">
+                        <img src="Base-Container3-Bottom_image.jpg" alt="">
+                    </div>
+                </div>
+                <div class="base-container3-side_image">
+                    <img src="Base-Container3-Side_image.jpg" alt="">
+                </div>
+            </div>
+            <div class="biggerbase-container4">
+                <div class="base-container4">
+                    
+                    <h1>The New Ultra Caramel Frappuccino is here!</h1>
+                    <p>Congrates on doing that thing! This calls for caramel. Lots of it. With cold brew whipped cream.
+                        The
+                        new Ultra Caramel Frappuccino is here!</p>
+                    <div class="btn3">
+                        Learn More
+                    </div>
+                    <div class="base-container4-bottom_image">
+                        <img src="Base-Container4-Bottom_image.jpg" alt="">
+                    </div>
+                </div>
+                <div class="base-container4-side_image">
+                    <img src="Base-Container4-Side_image.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="last-container">
+            <div class="social-thumb">
+                <li class="face"><a href="https://www.facebook.com/Starbucks"><img src="facebook.png" style="width: 35px;"></a></li>
+                <li class="twitt"><a href="https://twitter.com/Starbucks"><img src="twitterimg.png" style="width: 44px;"></a></li>
+                <li class="insta"><a href="https://www.instagram.com/starbucks/"><img src="instagram.png" style="width: 40px;"></a></li>
+            </div>
+        </div>
+        <footer>
+            <div class="title-name">
+                <h1><a href="/Main Page/">STARBUCKS</a></h1>
+            </div>
+            <div class="short-title">
+                <div class="short-title1">
+                    <h1><a href="/About Us/">ABOUT US</a></h1>
+                    <h3><a href="/About Us/">Our Heritage</a></h3>
+                    <h3><a href="/About Us/">Our Company</a></h3>
+                </div>
+                <div class="short-title2">
+                    <h1><a href="/Contacts/">CUSTOMER SERVICE</a></h1>
+                    <h3>Frequently Asked Questions</h3>
+                </div>
+            </div>
+            <p>&copy 2021 Starbucks Coffee Company. All rights reserved.</p>
+        </footer> 
+    </div>
+        
+    <script>
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+
+    </script>
+</body>
+
+</html>

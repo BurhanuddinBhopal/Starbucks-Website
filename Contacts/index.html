@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Contacts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <div class="cover-container">
+
+    
+        <nav>
+            <a href="/Main Page/" class="logo"><img src="logo.png" alt=""></a>
+    
+            <ul class="navigation">
+                <li><a href="/Home/">Home</a></li>
+                <li><a href="/About Us/">About Us</a></li>
+                <li><a href="/Coffeehouse/">Coffeehouse</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+            <div class="toggle" onclick="toggleMenu();"> </div>
+        </nav>
+        <div class="container">
+            <div class="base-container">
+                <div class="contact-page-image">
+                    <img src="Contact page-image.jpeg" alt="">
+                </div>
+                <h1>Hey, Welcome to Starbucks. What can we do for you?</h1>
+                <p>We love hearing from our customers, all questions, comments and feedback are always welcome. They help us to ensure that every Starbucks experience you have is the best it can be. We're on Facebook too, so please feel free to leave your comments on our page.</p>
+            </div>
+            <div class="base-container2">
+                <h2>Customer Care</h2>
+                <p class="para1">For general inquiries, you can call us on 18602660010. Alternatively, you can send us an email, and we’ll do our best to reply as quickly as possible.</p>
+            </div>
+            <div class="base-container3">
+                <h2>Working for Starbucks</h2>
+                <p>Love coffee, love people? Find out about working for Starbucks.</p>
+            </div>
+            <div class="base-container4">
+                <h2>Reach us at</h2>
+                <p>Tata Starbucks Private Limited
+                    CIN: U74900MH2011PTC222589
+                    4th Floor, New Excelsior Building,
+                    Amrit Keshav Nayak Marg, Fort, Mumbai 400 001
+                    Ph No. 022-66113939, email: contact@tatastarbucks.com</p>
+            </div>
+        </div>
+        <div class="bottom-base">
+            <div class="cover-last-container">
+                <div class="last-container">
+                    <div class="social-thumb">
+                        <li class="face"><a href="https://www.facebook.com/Starbucks"><img src="facebook.png" style="width: 35px;"></a></li>
+                <li class="twitt"><a href="https://twitter.com/Starbucks"><img src="twitterimg.png" style="width: 44px;"></a></li>
+                <li class="insta"><a href="https://www.instagram.com/starbucks/"><img src="instagram.png" style="width: 40px;"></a></li>
+                    </div>
+                </div>
+            </div>
+            
+            <footer>
+                <div class="title-name">
+                    <h1><a href="/Main Page/">STARBUCKS</a></h1>
+                </div>
+                <div class="short-title">
+                    <div class="short-title1">
+                        <h1><a href="/About Us/">ABOUT US</a></h1>
+                        <h3><a href="/About Us/">Our Heritage</a></h3>
+                        <h3><a href="/About Us/">Our Company</a></h3>
+                    </div>
+                    <div class="short-title2">
+                        <h1><a href="/Contacts/">CUSTOMER SERVICE</a></h1>
+                        <h3>Frequently Asked Questions</h3>
+                    </div>
+                </div>
+                <p>&copy 2021 Starbucks Coffee Company. All rights reserved.</p>
+            </footer>
+        </div>
+
+
+    </div>  
+    <script>
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+
+    </script>  
+</body>
+</html>

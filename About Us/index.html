@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+
+<body>
+    <div class="cover-container">
+
+    
+    <nav>
+        <a href="/Main Page/" class="logo"><img src="logo.png" alt=""></a>
+
+        <ul class="navigation">
+            <li><a href="/Home/">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="/Coffeehouse/">Coffeehouse</a></li>
+            <li><a href="/Contacts">Contacts</a></li>
+        </ul>
+        <div class="toggle" onclick="toggleMenu();"> </div>
+    </nav>
+        <div class="container">
+            <div class="base-container">
+                <h1>Our Company</h1>
+                <div class="starbucks-image">
+                    <img src="Starbucks-Cafe.jpg" alt="">
+                </div>
+            </div>
+            <div class="base-container2">
+                <h1>Our Heritage</h1>
+                <p class="para1">Our story begins in 1971 along the cobblestone streets of Seattle’s historic Pike Place
+                    Market. It was here where Starbucks opened its first store, offering fresh-roasted coffee beans, tea
+                    and spices from around the world for our customers to take home. Our name was inspired by the
+                    classic tale, “Moby-Dick,” evoking the seafaring tradition of the early coffee traders.</p>
+
+                <p class="para2"> 10 years later, a young New Yorker named Howard Schultz would walk through these doors
+                    and become captivated with Starbucks coffee from his first sip. After joining the company in 1982, a
+                    different cobblestone road would lead him to another discovery. It was on a trip to Milan in 1983
+                    that Howard first experienced Italy’s coffeehouses, and he returned to Seattle inspired to bring the
+                    warmth and artistry of its coffee culture to Starbucks. By 1987, we swapped our brown aprons for
+                    green ones and embarked on our next chapter as a coffeehouse.</p>
+
+                <p class="para3">Starbucks would soon expand to Chicago and Vancouver, Canada and then on to California,
+                    Washington, D.C. and New York. By 1996, we would cross the Pacific to open our first store in Japan,
+                    followed by Europe in 1998 and China in 1999. Over the next two decades, we would grow to welcome
+                    millions of customers each week and become a part of the fabric of tens of thousands of
+                    neighborhoods all around the world. In everything we do, we are always dedicated to Our Mission: to
+                    inspire and nurture the human spirit – one person, one cup, and one neighborhood at a time.</p>
+                <div class="base-container2_image">
+                    <img src="base-container2-image.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="base-container3">
+                <h1>Coffee & Craft</h1>
+                <p>It takes many hands to craft the perfect cup of coffee – from the farmers who tend to the red-ripe
+                    coffee cherries, to the master roasters who coax the best from every bean, and to the barista who
+                    serves it with care. We are committed to the highest standards of quality and service, embracing our
+                    heritage while innovating to create new experiences to savor.</p>
+                <div class="base-container3_image">
+                    <img src="base-container3-image.webp" alt="">
+                </div>
+            </div>
+            <div class="base-container4">
+                <h1>Our Partners</h1>
+                <p>We like to say that we are not in the coffee business serving people, but in the people business
+                    serving coffee. Our employees – who we call partners – are at the heart of the Starbucks experience.
+                    We are committed to making our partners proud and investing in their health, well-being and success
+                    and to creating a culture of belonging where everyone is welcome.</p>
+                <div class="base-container4_image">
+                    <img src="base-container4-image.jpg" alt="">
+                </div>
+            </div>
+            <div class="base-container5">
+                <h1>We Believe in the Pursuit of Doing Good</h1>
+                <p>As it has been from the beginning, our purpose goes far beyond profit. We believe Starbucks can, and
+                    should, have a positive impact on the communities we serve.</p>
+                <div class="para1">
+                    <h2>People</h2>
+                    <p>Our aspiration is to be people positive – investing in humanity and the well-being of everyone we
+                        connect with, from our partners to coffee farmers to the customers in our stores and beyond.</p>
+                </div>
+                <div class="para2">
+                    <h2>Planet</h2>
+                    <p>We are striving to become resource positive – giving back more than we take from the planet. We
+                        are working to store more carbon than we emit, replenish more freshwater than we use, and
+                        eliminate waste. We know we can’t do it alone. It takes all of us.</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-base">
+            <div class="cover-last-container">
+                <div class="last-container">
+                    <div class="social-thumb">
+                        <li class="face"><a href="https://www.facebook.com/Starbucks"><img src="facebook.png" style="width: 35px;"></a></li>
+                <li class="twitt"><a href="https://twitter.com/Starbucks"><img src="twitterimg.png" style="width: 44px;"></a></li>
+                <li class="insta"><a href="https://www.instagram.com/starbucks/"><img src="instagram.png" style="width: 40px;"></a></li>
+                    </div>
+                </div>
+            </div>
+            
+            <footer>
+                <div class="title-name">
+                    <h1><a href="/Main Page/">STARBUCKS</a></h1>
+                </div>
+                <div class="short-title">
+                    <div class="short-title1">
+                        <h1><a href="/About Us/">ABOUT US</a></h1>
+                        <h3><a href="/About Us/">Our Heritage</a></h3>
+                        <h3><a href="/About Us/">Our Company</a></h3>
+                    </div>
+                    <div class="short-title2">
+                        <h1><a href="/Contacts/">CUSTOMER SERVICE</a></h1>
+                        <h3>Frequently Asked Questions</h3>
+                    </div>
+                </div>
+                <p>&copy 2021 Starbucks Coffee Company. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+          
+        <script>
+            function toggleMenu() {
+                var menuToggle = document.querySelector('.toggle');
+                var navigation = document.querySelector('.navigation');
+                menuToggle.classList.toggle('active')
+                navigation.classList.toggle('active')
+            }
+
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,583 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap);
+*{
+    margin: 0 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.nav-container{
+    content-visibility: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 10px 47px;
+    margin-left: -35px;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+    margin-right: -590px;
+    margin-top: 40px;
+    font-size: 22px;
+}
+.navigation li{
+    margin-right: 55px;
+}
+.navigation li a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(32, 112, 32);
+}
+.navigation li a:hover{
+    background-color: rgb(32, 112, 32);
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+}
+.container{
+    margin-left: -35px;
+    margin-top: 60px;
+}
+.bigger-base-container{
+    display: flex;
+}
+h3{
+    font-size: 70px;
+    /* width: 445px;
+    line-height: 53px; */
+}
+.mid-head{
+    display: flex;
+    margin-left: 0px;
+}
+.mid-head h4{
+    margin-right: 3px;
+    font-size: 70px;
+}
+.mid-head h1{
+    margin-top: -13px;
+    font-size: 85px;
+    font-weight: 900;
+    color: rgb(32, 112, 32);
+    font-family: sans-serif;
+}
+.container p{
+    width: 710px;
+    font-size: 26px;
+    margin-top: 20px;
+}
+.btn{
+    background-color: rgb(32, 112, 32);
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    border-radius: 60px;
+    padding: 8px;
+    margin: 25px 10px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.image-biggerbox{
+    display: flex;
+    content-visibility: auto;
+}
+.image-box{
+    margin-top: 45px;
+    margin-left: 135px;
+}
+.image-box img{
+    max-width: 340px;
+}
+.background-color{
+    position: absolute;
+    width: 858px;
+    background: rgb(32, 112, 32);
+    height: 1240px;
+    clip-path: circle(815px at left 1200px);
+    margin-left: -64px;
+    margin-top: 320px;
+ }
+ 
+.social-thumb{
+    margin-top: 265px;
+    margin-left: -18px;
+    list-style: none;
+    line-height: 58px;
+    filter:invert();
+    cursor: pointer;
+    
+}
+.face{
+    margin-left: 5px;
+}
+.twitt{
+    margin-left: 0px;
+}
+.insta{
+    margin-left: 0px;
+}
+
+.thumb{
+    content-visibility: auto;
+    display: inline-flex;
+    margin-left: 228px;
+    list-style: none;
+}
+.thumb li{
+    margin-right: -22px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 55px;
+}
+.thumb li img{
+    width: 100px;
+}
+.thumb li:hover{
+    transform: translateY(-20px);
+}
+@media only screen and (min-width: 0px) and (max-width: 500px){
+    *{
+        margin: 0 0px;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+    header{
+        margin-left: -100px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+    }
+    .logo{
+        margin: 6px 111px;
+        margin-bottom: 30px;
+    }
+    .logo img{
+        width: 85px;
+    }
+    .menu-btn{
+        margin-top: 8px;
+    }
+    .toggle{
+        position: relative;
+        width: 113px;
+        height: 70px;
+        cursor: pointer;
+        background: url(menu.png);
+        background-size: 60px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(1);
+        z-index: 11;
+        margin-right: -584px;
+    }
+    .toggle.active{
+        background: url(close.png);
+        background-size: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(1);
+        margin-left: 866px;
+        margin-top: -8px;
+        position: fixed;
+        width: 66px;
+    }
+    .navigation{
+        display: none;
+        list-style: none;
+        margin-right: -60px;
+        margin-top: 84px;
+        width: 100%;
+    }
+    .navigation.active{
+        position: fixed;
+        margin-top: -70px;
+        margin-left: 98px;
+        width: 100%;
+        height: 115%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: rgb(32, 112, 32);
+        z-index: 10;
+        font-size: 35px;
+    }
+    .navigation li{
+        margin-right: 0px;
+    }
+    .navigation li a{
+        text-decoration: none;
+        font-weight: bolder;
+        color: black;
+    }
+    .container{
+        margin: 0 114px;
+        width: 500px;
+    }
+    .base-container h3{
+        font-size: 80px;
+        width: 800px;
+        margin-bottom: 12px;
+    }
+    .mid-head{
+        display: flex;
+    }
+    .mid-head h4{
+        font-size: 80px;
+        margin-left: 1px;
+        margin-right: 40px;
+    }
+    .mid-head h1{
+        margin-top: -12px;
+        color: rgb(32, 112, 32);
+        font-family: sans-serif;
+        font-weight: 900;
+        font-size: 93px;
+    }
+    .base-container p{
+        font-size: 28px;
+        width: 765px;
+        margin-top: 12px;
+        margin-bottom: 25px;
+    }
+    .btn{
+    background-color: rgb(32, 112, 32);
+    width: 120px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    margin: 12px 0px;
+    padding: 5px;
+    }
+    .image-box img{
+        width: 260px;
+    }    
+    .image-box{
+        margin-left: 90px;
+        content-visibility: auto;
+    }
+    .background-color{
+       position: absolute;
+       width: 858px;
+       background: rgb(32, 112, 32);
+       height: 1145px;
+       clip-path: circle(730px at left 1267px);
+       margin-left: 100px;
+       margin-top: 170px;
+    }
+    .social-thumb{
+        content-visibility: auto;
+        margin-left: 46px;
+        margin-top: 160px;
+        line-height: 50px;
+        /* background-color: rgb(32, 112, 32);
+        border-radius: 10px 0px 0px 10px; */
+        height: 160px;
+        filter:invert()
+    }
+    .face{
+        margin-left: 5px;
+    }
+    .thumb{
+        content-visibility: auto;
+        display: inline-flex;
+        margin-left: 228px;
+        list-style: none;
+    }
+    .thumb li{
+        margin-right: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .thumb li:hover{
+        transform: translateY(-20px);
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 978px){
+    *{
+        margin: 6px -6px;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        margin: 10px 47px;
+    }
+    .logo img{
+        width: 65px;
+    }
+    .menu-btn{
+        margin-top: 8px;
+    }
+    .toggle{
+        position: relative;
+        width: 98px;
+        height: 70px;
+        cursor: pointer;
+        background: url(menu.png);
+        background-size: 40px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(1);
+        z-index: 11;
+        margin-right: -296px;
+    }
+    .toggle.active{
+        background: url(close.png);
+        background-size: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(1);
+        margin-left: 780px;
+        position: fixed;
+    }
+    .navigation.active{
+        position: fixed;
+        margin-top: -13px;
+        margin-left: 24px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: rgb(32, 112, 32);
+        z-index: 10;
+    }
+    .navigation{
+        display: none;
+        list-style: none;
+        margin-right: -60px;
+        margin-top: 84px;
+        width: 100%;
+    }
+    .navigation li{
+        margin-right: 0px;
+        margin-top: 3px;
+    }
+    .navigation li a{
+        text-decoration: none;
+        font-weight: bolder;
+        color: black;
+    }
+    .container{
+        margin: 0 52px;
+    }
+    .base-container h3{
+        font-size: 60px;
+        width: 600px;
+    }
+    .mid-head{
+        display: flex;
+    }
+    .mid-head h4{
+        font-size: 60px;
+        margin-left: -7px;
+        margin-right: 30px;
+    }
+    .mid-head h1{
+     margin-top: -6px;
+    color: rgb(32, 112, 32);
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 73px;
+    }
+    .base-container p{
+        margin-top: 12px;
+        margin-bottom: 34px;
+        font-size: 22px;
+    }
+    .btn{
+    background-color: rgb(32, 112, 32);
+    width: 110px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    margin: 12px -17px;
+    padding: 5px;
+    }
+    .image-biggerbox{
+        content-visibility: auto;
+    }
+    .image-box img{
+        width: 260px;
+    }
+    .image-box{
+        margin-left: 150px;
+        margin-top: 40px;
+    }
+    .social-thumb{
+        margin-top: 156px;
+        margin-left: 30px;
+        /* filter:invert() */
+    }
+    .face{
+        margin-left: 5px;
+    }
+    .social-thumb li{
+        list-style: none;
+        line-height: 25px;
+    }
+    .social-thumb li img{
+        margin-left: 4px;
+    }
+    .thumb{
+        display: flex;
+        list-style: none;
+        content-visibility: auto;
+        margin-left: 16px;
+    }
+    .thumb li{
+        margin-left: 94px;
+        margin-right: -40px;
+        transition: 0.5s;
+    }
+    .thumb li:hover{
+        transform: translateY(-20px);
+    }
+    .background-color{
+        position: absolute;
+        width: 858px;
+        background: rgb(32, 112, 32);
+        height: 1180px;
+        clip-path: circle(692px at left 1202px);
+        margin-left: 17px;
+        margin-top: 80px;
+     }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+    *{
+        margin: 0 -6px;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        margin: 10px 105px;
+        margin-left: 70px;
+    }
+    .logo img{
+        width: 80px;
+    }
+    .navigation{
+        display: flex;
+        list-style: none;
+        margin-right: -505px;
+        margin-top: 26px;
+    }
+    .navigation li{
+        margin-right: 92px;
+        color: rgb(32, 112, 32);
+    }
+    .navigation li a:hover{
+        background-color: rgb(32, 112, 32);
+    }
+    .navigation li a{
+        text-decoration: none;
+        font-weight: bolder;
+        color: black;
+    }
+    .container{
+        margin-left: 44px;
+        margin-top: 60px;
+    }
+    .base-container h3{
+        font-size: 65px;
+        margin-left: 26px;
+        margin-bottom: 20px;
+    }
+    .mid-head h4{
+        margin-right: 28px;
+        font-size: 65px;
+        margin-left: 26px;
+    }
+    .mid-head h1 {
+        margin-top: -12px;
+        font-size: 80px;
+        font-weight: 900;
+        color: rgb(32, 112, 32);
+        font-family: sans-serif;
+    }
+    .base-container p{
+        margin-left: 26px;
+
+    }
+    .btn{
+        background-color: rgb(32, 112, 32);
+        width: 110px;
+        text-align: center;
+        border-radius: 20px;
+        color: white;
+        font-weight: 600;
+        margin: 40px 20px;
+        padding: 5px;
+    }
+    .image-biggerbox {
+        display: flex;
+        content-visibility: auto;
+    }
+    .image-box{
+        margin-left: 200px;
+    }    
+    .background-color{
+        position: absolute;
+        width: 858px;
+        background: rgb(32, 112, 32);
+        height: 1368px;
+        clip-path: circle(740px at left 1266px);
+        margin-left: 17px;
+        margin-top: 250px;
+     }
+    .social-thumb{
+        margin-top: 220px;
+        margin-left: 50px;
+        list-style: none;
+        /* filter:invert() */
+    }
+    .face{
+        margin-left: 5px;
+    }
+    .social-thumb li{
+        line-height: 45px;
+    }
+    .social-thumb li img{
+       margin-left: 2px;
+    }
+    .thumb{
+        display: flex;
+        content-visibility: auto;
+        margin-left: 200px;
+        list-style: none;
+    }
+    .thumb li{
+        margin-right: 30px;
+        margin-left: 10px;
+        transition: 0.5s;
+        margin-top: 20px;
+    }
+    .thumb li:hover{
+        transform: translateY(-20px);
+    }
+}
+
